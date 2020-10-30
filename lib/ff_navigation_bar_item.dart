@@ -122,12 +122,11 @@ class FFNavigationBarItem extends StatelessWidget {
       height: height,
       width: width,
       decoration: BoxDecoration(
-        // borderRadius: BorderRadius.all(Radius.elliptical(itemWidth / 2, 2)),
-                borderRadius: BorderRadius.all(Radius.elliptical(0)),
+        borderRadius: BorderRadius.all(Radius.elliptical(itemWidth / 2, 2)),
         boxShadow: [
           const BoxShadow(
             color: Colors.black12,
-            blurRadius: 2,
+            blurRadius: 0,
           ),
         ],
       ),
