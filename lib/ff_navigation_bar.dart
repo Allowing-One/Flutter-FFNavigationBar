@@ -49,7 +49,6 @@ class _FFNavigationBarState extends State<FFNavigationBar> {
       ],
       child: Container(
         decoration: BoxDecoration(
-                                borderRadius: BorderRadius.all(Radius.circular(20)),
           color: bgColor,
           boxShadow: [
             const BoxShadow(
@@ -77,6 +76,9 @@ class _FFNavigationBarState extends State<FFNavigationBar> {
                     });
                   },
                   child: Container(
+                      decoration: BoxDecoration(
+                      borderRadius: BorderRadius.all(Radius.circular(20)),
+                    ),
                     color: Colors.transparent,
                     child: SizedBox(
                       width: MediaQuery.of(context).size.width /
