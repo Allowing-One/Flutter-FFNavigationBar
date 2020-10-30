@@ -59,6 +59,9 @@ class _FFNavigationBarState extends State<FFNavigationBar> {
         ),
         child: SafeArea(
           child: Container(
+                                decoration: BoxDecoration(
+                      borderRadius: BorderRadius.all(Radius.circular(20)),
+                    ),
             width: double.infinity,
             height: theme.barHeight,
             padding: const EdgeInsets.symmetric(vertical: 6, horizontal: 0),
